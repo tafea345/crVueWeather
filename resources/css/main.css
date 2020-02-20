@@ -1,0 +1,23 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.ap-footer svg {
+    display: inline;
+}
+
+.ap-suggestion-icon svg {
+    @apply inline-block;
+    @apply -mt-3;
+}
+
+.ap-dataset-places {
+    @apply bg-gray-700;
+}
+
+.ap-suggestion:hover {
+    @apply text-black;
+    @apply bg-yellow-200;
+}
